@@ -28,7 +28,7 @@
 
 
         <div class="accueilP2">
-          <img src="static/img/CSV/1.png" alt="1">
+          <img src="static/img/CSV/Premier.png" alt="1">
           <div class="textP2">
             <h2> Le Projet </h2>
             <div class="Lignes">
@@ -602,7 +602,7 @@ p{
     z-index: initial;
     height: 7vh;
     background-size: 100% auto;
-    background-image: url("../../static/img/Entete/PG.png");
+    background-image: url("../../static/img/Entete/CSV.png");
   }
 }
 
@@ -903,8 +903,7 @@ h3{
   align-items: center;
   padding: 8vw;
   grid-template-columns: 2fr 1fr 1fr 1fr;
-  background-size: 100% auto;
-  background-image: url("../../static/img/Button/C.png");
+  background-color: #42373A;
 
 }
 
@@ -975,8 +974,7 @@ a:hover{
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 100px);
     padding: 40px;
-    background-size: 100% auto;
-    background-image: url("../../static/img/Button/C.png");
+    background-color: #42373A;
 
   }
 

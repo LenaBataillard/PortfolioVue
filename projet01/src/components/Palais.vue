@@ -876,10 +876,22 @@ h3{
   align-items: center;
   padding: 8vw;
   grid-template-columns: 2fr 1fr 1fr;
-  background-size: 100% auto;
-  background-image: url("../../static/img/Button/Ps.png");
-
+ background-color: #42373A;
 }
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
 
 .container {
   width: 100%;
@@ -948,9 +960,8 @@ a:hover{
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 100px);
     padding: 20px;
-    background-size: 100% auto;
-    background-image: url("../../static/img/Button/Ps.png");
 
+    background-color: #42373A;
   }
 
   .container {

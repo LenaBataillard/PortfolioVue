@@ -764,23 +764,6 @@ h3{
 
 
 
-.container{
-  display: grid;
-  justify-items: center;
-  align-items: center;
-  padding: 8vw;
-  grid-template-columns: 2fr 1fr 1fr;
-  background-size: 100% auto;
-  background-image: url("../../static/img/Button/I.png");
-
-}
-
-.container {
-  width: 100%;
-  height: 300px;
-  padding-top: 40px;
-}
-
 h4{
   font-family: "Playfair Display",serif;
   font-size: 60px;
@@ -837,21 +820,6 @@ a:hover{
 
 
 @media only screen and (max-width: 1000px) {
-  .container{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 100px);
-    padding: 20px;
-    background-size: 100% auto;
-    background-image: url("../../static/img/Button/I.png");
-
-  }
-
-  .container {
-    width: 100%;
-    height: 300px;
-    padding-top: 40px;
-  }
 
   h4{
     font-size: 30px;

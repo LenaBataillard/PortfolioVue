@@ -581,7 +581,7 @@ p{
     z-index: initial;
     height: 7vh;
     background-size: 100% auto;
-    background-image: url("../../static/img/Entete/PG.png");
+    background-image: url("../../static/img/Entete/BUG.png");
   }
 }
 
@@ -879,8 +879,8 @@ h3{
   align-items: center;
   padding: 8vw;
   grid-template-columns: 2fr 1fr 1fr;
-  background-size: 100% auto;
-  background-image: url("../../static/img/Button/B.png");
+  background-color: #42373A;
+
 
 }
 
@@ -951,8 +951,7 @@ a:hover{
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 100px);
     padding: 20px;
-    background-size: 100% auto;
-    background-image: url("../../static/img/Button/B.png");
+    background-color: #42373A;
 
   }
 

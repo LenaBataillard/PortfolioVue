@@ -90,6 +90,15 @@ nav.menu_ordi ul{
   height: 10vh;
   background-color: #42373A;
 }
+
+nav a:hover{
+  color: #FEA443;
+}
+
+
+nav a:hover{
+  color: #FEA443;
+}
 .menu_ordi ul::after{
   content: "";
   display: block;
@@ -103,6 +112,8 @@ nav.menu_ordi ul{
   font-size: 1.5em;
   color: #42373A; /**/
 }
+
+
 .menu_ordi>ul li:last-of-type{
   margin-right: 3em;
 }

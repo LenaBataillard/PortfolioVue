@@ -31,7 +31,7 @@
       <img src="static/img/Groupe17.png" alt="Lena">
       </div>
 
-      <a href="#section2"><div class="scroll-down svg" id="home-scroll-down">
+     <div class="scroll-down svg" id="home-scroll-down">
         <svg id="117badda-98d7-4da8-b633-d9bd2d982a33" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38 52">
           <title>Prancheta 8</title>
           <g style="opacity:0.7000000000000001">
@@ -39,7 +39,7 @@
             <line class="scroller" x1="19" y1="12.23" x2="19" y2="17.48" style="fill:none;stroke:#FEA443;stroke-linecap:round;stroke-linejoin:round;stroke-width:3.172131147332232px"/>
           </g>
         </svg><i class="icon icon-arrow-down"></i>
-      </div></a>
+      </div>
 
 
       <div id="section2"  class="accueilA">
@@ -365,11 +365,11 @@ p{
   display: block;
   margin: auto 0 auto 0;
   height: max-content;
-  width: 35vw;
+  width: 25vw;
   max-width: 600px;
   padding: 0;
-
 }
+
 
 .Lignes img {
   display: block;
@@ -698,6 +698,7 @@ h3{
   top: 50%;
   width: 100%;
   transform: translate3d(0, -50%, 0);
+
 }
 .js-slider_nav_item.prev {
   left: 0;
@@ -731,9 +732,11 @@ h3{
 }
 .js-slider_nav_item:hover {
   transform: translate3d(-30%, 0, 0);
+
 }
 .js-slider_nav_item.next:hover {
   transform: rotateY(180deg) translate3d(-30%, 0, 0);
+
 }
 .js-slider_nav_item:hover:before {
   transform: translate3d(0, -50%, 0) rotate(-30deg);
@@ -789,6 +792,8 @@ h3{
 #s-4:checked ~ .js-slider .js-slider_indicator .indi-4:after {
   transform: translate3d(-50%, -50%, 0) scale(2.5);
 }
+
+
 
 
 /*competences*/
@@ -857,10 +862,33 @@ h3{
 
 
 
+.Video img:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
 .Video>img{
   height: 20%;
   width: 20%;
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
 }
+
+
+.Video2 img:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.Video2>img{
+  height: 20%;
+  width: 20%;
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+}
+
 
 .Video2>img{
   height: 20%;
@@ -1142,7 +1170,9 @@ a:hover{
 
 svg {
   vertical-align: middle;
+  width: 40px;
 }
+
 .scroll-down {
   position: absolute;
   left: 50%;
@@ -1159,7 +1189,7 @@ svg {
   box-sizing: border-box;
 }
 .scroll-down.svg svg {
-  width: 25px;
+  width: 30px;
   opacity: 1;
   -webkit-transition: opacity .5s;
   -moz-transition: opacity .5s;
@@ -1167,9 +1197,15 @@ svg {
   -o-transition: opacity .5s;
   transition: opacity .5s;
 }
+
+
+
 .scroll-down.svg .stroke {
   stroke: #ADA99D;
 }
+
+
+
 .scroll-down.svg .scroller {
   fill: #ADA99D;
   -webkit-animation: updown 1s infinite;
