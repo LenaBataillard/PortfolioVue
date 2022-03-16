@@ -252,7 +252,7 @@ export default {
 <style>
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=Poppins:wght@300;400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
 html{
   font-size: 62.5%;

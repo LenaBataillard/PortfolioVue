@@ -59,7 +59,7 @@
 
 
         <div class="accueilP3">
-          <img src="static/img/PG/3.png" alt="3">
+          <img src="static/img/CSV/3.png" alt="3">
           <div class="textP3">
             <p>J'ai aussi participé au maquettage du site ainsi qu'à la création de sa charte graphique en réalisant le logo par exemple. </p>
           </div>
