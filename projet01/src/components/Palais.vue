@@ -521,6 +521,7 @@ p{
   }
   .accueilP>img{
     margin: 0 auto;
+
   }
 
 
@@ -536,6 +537,7 @@ p{
   }
   .accueilP2>img{
     margin: 0 auto;
+
   }
 
 
@@ -550,6 +552,7 @@ p{
   }
   .accueilP3>img{
     margin: 0 auto;
+
   }
 
 
@@ -565,6 +568,7 @@ p{
 
   .accueilP4>img{
     margin: 0 auto;
+
   }
 }
 

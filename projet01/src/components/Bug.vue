@@ -530,6 +530,7 @@ p{
   }
   .accueilP2>img{
     margin: 0 auto;
+
   }
 
 

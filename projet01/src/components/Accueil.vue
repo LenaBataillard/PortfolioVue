@@ -16,7 +16,7 @@
       <div class="accueilA3">
         <div class="textA3">
           <h1>Lena Bataillard</h1>
-          <p>Passionné par le web et les nouvelles technologies, je suis actuellement en DUT MMI à Montbéliard où j’étudie le design, la communication et la programmation. Vous pourrez découvrir sur cette page une partie de mon travail.</p>
+          <p>Passionnée par le web et les nouvelles technologies, je suis actuellement en DUT MMI à Montbéliard où j’étudie le design, la communication et la programmation. Vous pourrez découvrir sur cette page une partie de mon travail.</p>
 
           <div class="container">
           <button type="submit" class="outline green-white"><a href="static/img/Acc/CV.pdf" download rel="noopener noreferrer" target="_blank"> Télécharger CV
@@ -44,7 +44,7 @@
 
       <div id="section2"  class="accueilA">
         <div class="textA">
-          <h2> Mes création </h2>
+          <h2> Mes créations </h2>
           <div class="Lignes">
             <img src="static/img/PG/Ligne.png" alt="Ligne">
           </div>
@@ -211,21 +211,48 @@
       </div>
 
       <div class="Cursus">
-        <div class="content-holder">
-          <span>
-			<ul class="word-slider">
-				<li>2017 - 2020 </li>
-        <li class="change">Baccalauréat Scientifique</li>
-
-        <li>&nbsp      </li>
-        <li>&nbsp      </li>
-
-				<li>2020 - 2022</li>
-        <li class="change">DUT des Métiers du Multimédia et de l'Internet</li>
-			</ul>
-		</span>
+        <div class="ecole">
+          <img src="static/img/Photo_Ecole/Sup_de_com.jpg" alt="Lena">
         </div>
+
+          <div class="texC">
+            <a href="https://www.ecoles-supdecom.com/"><h3>Bachelor Responsable de Communication</h3></a>
+            <p>Sup de Com - Lyon</p>
+            <p>2022 - 2023</p>
+
+          </div>
+
+
       </div>
+
+      <div class="Cursus2">
+      <div class="texC2">
+        <a href="http://mmimontbeliard.com/"> <h3>DUT des Métiers du Multimédia et de l'Internet</h3></a>
+        <p>Département MMI - Montbélaird </p>
+        <p>2020 - 2022</p>
+
+      </div>
+
+          <div class="ecole2">
+          <img src="static/img/Photo_Ecole/MMi.jpg" alt="Lena">
+          </div>
+        </div>
+
+      <div class="Cursus">
+        <div class="ecole">
+         <img src="static/img/Photo_Ecole/PEV.jpg" alt="Lena">
+        </div>
+
+          <div class="texC">
+            <a href="https://lyc-pevictor-champagnole.eclat-bfc.fr/"> <h3>Baccalauréat Scientifique</h3></a>
+            <p>Lycée Polyvalent Paul-Emile Victor </p>
+            <p>2017 - 2020 </p>
+
+          </div>
+
+
+        </div>
+
 
 
       </div>
@@ -1048,122 +1075,215 @@ a:hover{
 
 
 
-
-
-
-
-.Cursus {
-  width: 100%;
-  height:150px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  padding-left: 25px;
-  padding-bottom: 250px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
+.Cursus{
+  display: grid;
+  border-left-style: double ;
+  border-color: #FEA443;
+  justify-items: center;
+  align-items: center;
+  padding: 8vw;
+  padding-bottom: 0;
+  padding-top: 0;
+  grid-template-columns: 1fr 1fr;
 }
 
-.Cursus .content-holder:before {
-  margin-top: -10px;
-  margin-right: 10px;
-  color: rgb(142, 101, 4);
+.Cursus2{
+  display: grid;
+  border-right-style: double ;
+  border-color: #FEA443;
+  justify-items: center;
+  align-items: center;
+  padding: 6vw;
+  padding-bottom: 0;
+  padding-top: 0;
+  grid-template-columns:  1fr 1fr;
 }
 
-.Cursus .content-holder:after {
-  margin-top: -10px;
-  margin-left: 10px;
-  color: rgb(142, 101, 4);
+
+
+.Cursus p{
+  font-family: Poppins, sans-serif;
+  font-size: 15px;
 }
 
-.Cursus ul {
-  line-height: 42px;
-  margin-top: 0;
+.Cursus2 p{
+  font-family: Poppins, sans-serif;
+  font-size: 15px;
 }
 
-.Cursus span {
-  display: inline;
-}
-
-.Cursus ul.word-slider {
-  list-style: none;
-  margin-left: -30px;
-}
-
-.Cursus .content-holder {
-  height: 80px;
-  overflow: hidden;
-}
-
-.Cursus li {
-  font-size: 40px;
-  font-weight: bold ;
+.Cursus a:hover {
   color: #FEA443;
-  font-family: "Playfair Display",serif;
 }
 
-.Cursus .change {
-  font-size: 30px;
+.ecole>img{
+  padding: 50px;
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+}
+
+
+.Cursus2 a:hover {
+  color: #FEA443;}
+
+.ecole2>img{
+  padding: 50px;
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+}
+
+
+.Cursus2>img{
+  width: 100%;
+}
+
+.Cursus>img{
+  width: 100%;
+}
+
+.texC{
+  height: 60px;
+  width: 100%;
+  justify-content: left;
+}
+
+.texC2{
+  height: 60px;
+  width: 100%;
+  justify-content: right;
+  margin-left: 30px;
+}
+
+.Cursus a{
   color: #000;
-  font-family: "Playfair Display",serif;
 }
 
-.Cursus ul.word-slider {
-  animation: change 15s infinite;
+.Cursus2 a{
+  color: #000;
 }
 
-@keyframes change {
-  0% {
-    margin-top: -5px;
+
+
+
+
+@media only screen and (max-width: 2000px) {
+
+  .Cursus img{
+    width: 100%;
   }
 
-  25% {
-    margin-top: -85px;
+  .Cursus2 img{
+    width: 100%;
   }
 
-  50% {
-    margin-top: -175px;
+
+  .texC p{
+    font-size: 15px;
   }
 
-  100% {
-    margin-top: -5px;
+  .texC2 p{
+    font-size: 15px;
   }
 }
-
 
 @media only screen and (max-width: 900px) {
-  .Cursus li {
-    font-size: 30px;
-    font-weight: bold ;
-    color: #FEA443;
-    font-family: "Playfair Display",serif;
+
+  .ecole img{
+    width: 40vw;
   }
 
-  .Cursus .change {
-    font-size: 20px;
+  .ecole2 img{
+    width: 40vw;
+  }
+
+  .texC p{
+    font-size: 11px;
+  }
+
+  .texC2 p{
+    font-size: 11px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+
+  .ecole img{
+    width: 40vw;
+  }
+
+  .ecole2 img{
+    width: 40vw;
+  }
+
+  .texC {
+    font-size: 11px;
     color: #000;
-    font-family: "Playfair Display",serif;
+
+  }
+
+  .texC2 {
+    font-size: 11px;
+    color: #000;
+
+  }
+
+  .Cursus{
+    display: grid;
+    border-left-style: none ;
+
+  }
+
+  .Cursus2{
+    display: grid;
+    border-right-style: none ;
+
+  }
+  .ecole{
+    height: 30vh;
+  }
+
+  .ecole2{
+    height: 30vh;
+  }
+
+  .ecole2>img{
+    padding: 30px;
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+  }
+
+  .ecole>img{
+    padding: 30px;
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+
+  .Cursus2 h3{
+    font-size:12px ;
+  }
+
+  .Cursus h3{
+    font-size:12px ;
   }
 
 
 }
 
-@media only screen and (max-width: 600px) {
-  .Cursus li {
-    font-size: 20px;
-    font-weight: bold ;
-    color: #FEA443;
-    font-family: "Playfair Display",serif;
-  }
-
-  .Cursus .change {
-    font-size: 10px;
-    color: #000;
-    font-family: "Playfair Display",serif;
-  }
 
 
-}
+
+
+
+
+
+
+
+
+
+
+
 
 
 

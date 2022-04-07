@@ -412,7 +412,6 @@ video{
 
   video{
     margin: 0 auto;
-    width: 70%;
   }
 
 
@@ -441,6 +440,7 @@ video{
   .accueil2>img{
     margin: 0 auto;
     align-items: center;
+
 
   }
 

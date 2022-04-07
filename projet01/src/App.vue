@@ -39,7 +39,7 @@
 
     <footer>
 
-      <div class="Footer">
+      <div class="footer">
 
 
         <div class="Lien">
@@ -280,7 +280,7 @@ nav a, #nav-footer a{
   text-decoration: none;
   color: white;
   font-family: "Playfair Display",serif;
-  font-size: 25px;
+  font-size: 20px;
   margin: 20px;
 
 }
@@ -385,14 +385,16 @@ footer img{
 
 
 
-.Footer{
+.footer{
   display: grid;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   justify-items: center;
-  padding: 5vw;
-  padding-top: 0;
-  grid-template-columns:2fr 2fr 1fr 1fr;
+  padding: 0 5vw 5vw;
+  grid-template-columns: 2fr 2fr 1fr 1fr;
 }
+
 
 .Lien{
   height: 60px;

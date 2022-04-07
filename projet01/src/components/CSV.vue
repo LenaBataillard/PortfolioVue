@@ -536,7 +536,8 @@ p{
   }
 .accueilP>img{
     margin: 0 auto;
-  }
+
+}
 
 
 .accueilP2{
@@ -551,7 +552,8 @@ p{
   }
 .accueilP2>img{
     margin: 0 auto;
-  }
+
+}
 
 
 .accueilP3{
@@ -565,7 +567,8 @@ p{
   }
 .accueilP3>img{
     margin: 0 auto;
-  }
+
+}
 
 
 .accueilP4{
@@ -580,7 +583,8 @@ p{
 
 .accueilP4>img{
     margin: 0 auto;
-  }
+
+}
 }
 
 
